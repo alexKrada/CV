@@ -2,78 +2,81 @@
 <head>
     <meta charset="UTF-8">
      <title>Alex CV</title>
+<link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-    <table cellspacing="15">
-        <tr>
-            <td>
-                <img src="images/img1.jpg" width="200"/>
-            </td>
-            <td>
-                <h1>Александр Кардаш</h1>
-                <p><em><strong>Я инженер по электросветотехническому обеспечению полетов</strong> </em></p>
-                <p> Я люблю путешествовать</p>
-            </td>
-        </tr>
-    </table>
-   
-<hr>
+    <div class="container">
+    <div class="info">
+  <img src="images/img1.jpg" width="200" alt="тут моя фотка" class="avatar"/>
+   <div class="info-text">
+  <h1>Александр Кардаш</h1>
+    <p><em><strong>Я инженер по электросветотехническому обеспечению полетов</strong> </em></p>
+    <p> Я люблю путешествовать</p>
 
-<h2>Мои социальные сети</h2>
-    <ul type="square">
-        <li><a href="https://www.instagram.com/electric_kay_mogilev/" target="_blank">Instagramm</a></li>
-        <li>Telegram</li>
-    </ul>
-<hr>
-
-<h2>Мои хобби</h2>
-    <ol>
-        <li>Спорт: тренажерный зал, футбол, баскетбол, настольный теннис</li>
-        <li>Электрика</li>
-        <li>компьютерные игры</li>
-    </ol>
-    <hr>
+    <h2>Мои социальные сети</h2>
+        
+    <a href="https://www.instagram.com/electric_kay_mogilev/" target="_blank">Instagramm</a>
+        |
+    <a href="https://www.facebook.com/profile.php?id=100065284311716" target="_blank">Facebook</a>
+</div>    
+</div>
+       
+    <div class="card bg-yellow">
+    <h2>Мои хобби</h2>
+        <ol class="list">
+            <li>Спорт: тренажерный зал, футбол, баскетбол, настольный теннис</li>
+            <li>Электрика</li>
+            <li>компьютерные игры</li>
+        </ol>
+        </div>
+        <div class="contact">
     <h2>Связаться со мной</h2>
 
-    <form>
+    <form action="/index.html">
+        <div class="row">
+        <div class="form-group">
         <label for="name"> Ваше имя: </label>
         <input type="text" id="name"
         placeholder="Введите ваше имя">
         <input type="submit" value="связаться">
-
-        <br>
-        
+    </div>
+          <div class="form-group">  
         <label for="email"> Ваше email: </label>
          <input type="text" id="email"
          placeholder="Введите email">
          <input type="submit">
+            </div>
+            </div>
          
-         <br>
+         <div class="form-group">
          <label for="text"> Ваше сообщение: </label>
 
-         <br>
-
-         <textarea id="text" rows="2" cols="15"></textarea>
-                
+                 <textarea id="text" rows="2" cols="15"></textarea>
+                <input class="btn" type="submit" value="Связаться!">
     </form>
+</div>
+</div>
 
-    <hr>
-
-    <h2>Курсы</h2>
-    <a href="youtube.html">Посмотреть список</a>
-    <h2> Опыт работы </h2>
-    <table border="2">
-                 
-        <thead>
-         <tr>
-                <th>Место работы</th>
-                <th>Должность</th>
-                <th>год</th>
-        </tr>
-        </thead>
+        <div class="card bg-red" >
+        <h2>Курсы</h2>
+        <ul class="link-list">
+            <li>
+                <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU"> Основы программирования</ahref></a>
+                
+            </li>
+                
+        <li>
+            <a href="https://www.youtube.com/watch?v=SpCUuyZZTp8">изучение CSS</a>
+        </li>
+        </ul>
+        </div>
+        <h2> Опыт работы </h2>
+        <table class="table">
+    </div>
+               
         <tr>
             <td>Могилевский аэропорт</td>
-                <td>Техник Эстоп</td>
+                <td >Техник Эстоп</td>
                   <td> 2015-2021</td>
         </tr>
         <tr>
@@ -84,5 +87,111 @@
         
         
     </table>
+ <div class="box-model">
+       
+<div class="position">
+     <div class="box"></div>
+    </div> 
+</div>
+<div style="margin-bottom:500px;">
+</div>
+</body>
+</html><!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+     <title>Alex CV</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+    <div class="info">
+  <img src="images/img1.jpg" width="200" alt="тут моя фотка" class="avatar"/>
+   <div class="info-text">
+  <h1>Александр Кардаш</h1>
+    <p><em><strong>Я инженер по электросветотехническому обеспечению полетов</strong> </em></p>
+    <p> Я люблю путешествовать</p>
+
+    <h2>Мои социальные сети</h2>
+        
+    <a href="https://www.instagram.com/electric_kay_mogilev/" target="_blank">Instagramm</a>
+        |
+    <a href="https://www.facebook.com/profile.php?id=100065284311716" target="_blank">Facebook</a>
+</div>    
+</div>
+       
+    <div class="card bg-yellow">
+    <h2>Мои хобби</h2>
+        <ol class="list">
+            <li>Спорт: тренажерный зал, футбол, баскетбол, настольный теннис</li>
+            <li>Электрика</li>
+            <li>компьютерные игры</li>
+        </ol>
+        </div>
+        <div class="contact">
+    <h2>Связаться со мной</h2>
+
+    <form action="/index.html">
+        <div class="row">
+        <div class="form-group">
+        <label for="name"> Ваше имя: </label>
+        <input type="text" id="name"
+        placeholder="Введите ваше имя">
+        <input type="submit" value="связаться">
+    </div>
+          <div class="form-group">  
+        <label for="email"> Ваше email: </label>
+         <input type="text" id="email"
+         placeholder="Введите email">
+         <input type="submit">
+            </div>
+            </div>
+         
+         <div class="form-group">
+         <label for="text"> Ваше сообщение: </label>
+
+                 <textarea id="text" rows="2" cols="15"></textarea>
+                <input class="btn" type="submit" value="Связаться!">
+    </form>
+</div>
+</div>
+
+        <div class="card bg-red" >
+        <h2>Курсы</h2>
+        <ul class="link-list">
+            <li>
+                <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU"> Основы программирования</ahref></a>
+                
+            </li>
+                
+        <li>
+            <a href="https://www.youtube.com/watch?v=SpCUuyZZTp8">изучение CSS</a>
+        </li>
+        </ul>
+        </div>
+        <h2> Опыт работы </h2>
+        <table class="table">
+    </div>
+               
+        <tr>
+            <td>Могилевский аэропорт</td>
+                <td >Техник Эстоп</td>
+                  <td> 2015-2021</td>
+        </tr>
+        <tr>
+            <td> Белаэронавигация</td>
+                <td> инженер эстоп</td>
+                    <td>2021-2022</td>
+        </tr> 
+        
+        
+    </table>
+ <div class="box-model">
+       
+<div class="position">
+     <div class="box"></div>
+    </div> 
+</div>
+<div style="margin-bottom:500px;">
+</div>
 </body>
 </html>
